@@ -13,5 +13,5 @@ function fromDollarToYen(dollar) {
      let pound = yenToEuro * 0.87 
      return pound;   
  }
-  module.exports = {fromEuroToDollar} 
+  module.exports = {fromYenToPound} 
   
