@@ -9,6 +9,6 @@ test("100 euros should be 107 dollars", () => {
 }); 
 
 const {fromDollarToYen} = require('./app.js')
-test("100 dollars should be 16745.5 yen", () => {
+test("100 dollars should be 14626.168224299065 yen", () => {
     expect(fromDollarToYen(100)).toBe(14626.168224299065)
 }); 
